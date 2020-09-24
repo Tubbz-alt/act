@@ -10,7 +10,7 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE LambdaCase #-}
 
-module Type (typecheck, metaType, mkStorageBounds) where
+module Type (typecheck, metaType, mkStorageBounds, lookupVars) where
 
 import Data.List
 import EVM.ABI
